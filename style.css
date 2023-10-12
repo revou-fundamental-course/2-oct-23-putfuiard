@@ -1,0 +1,101 @@
+:root {
+    --primary: #6fb1c0; 
+    --bg: #9dd3f4; 
+    --secondary: #0c3c47; 
+    --hover: #555;
+    --button-text: #fff; 
+    --button-hover: #0056b3; 
+}
+
+body, h1, h2, p, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: var(--bg); 
+}
+
+/* header */
+header {
+    background: var(--secondary); 
+    color: var(--button-text);
+    text-align: center; 
+    padding: 10px 0; 
+}
+
+/*main*/
+main {
+    max-width: 400px;
+    margin: 20px auto; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*form*/
+form {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+/*label*/
+label {
+    margin: 10px 0;
+}
+
+/*Input*/
+input {
+    margin: 5px 0; 
+    padding: 5px;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    width: 100%; 
+}
+
+/*button*/
+button {
+    margin: 10px 0; 
+    padding: 10px 20px;
+    background: var(--secondary); 
+    color: var(--button-text); 
+    border: none; 
+    cursor: pointer;
+    border-radius: 3px; 
+    transition: background-color 0.2s; 
+}
+
+/* button saat dihover */
+button:hover {
+    background-color: var(--hover); 
+}
+
+/*result dan explanation*/
+#result, #explanation {
+    margin-top: 20px;
+}
+
+/*resetButton dan reverseButton*/
+#resetButton, #reverseButton {
+    margin-left: 10px; 
+    background-color: var(--primary); 
+    color: var(--button-text);
+    border: none;
+    padding: 5px 10px; 
+    cursor: pointer;
+    border-radius: 3px; 
+}
+
+/*resetButton dan reverseButton saat dihover */
+#resetButton:hover, #reverseButton:hover {
+    background-color: var(--button-hover); 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+  }

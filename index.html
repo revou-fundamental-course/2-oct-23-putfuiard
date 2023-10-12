@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start header -->
+    <header>
+        <h1>Kalkulator Suhu</h1> 
+    </header>
+    <!-- End header -->
+
+    <!-- Start main content -->
+    <main>
+        <!-- Start form -->
+        <form id="temperatureForm">
+            <label for="temperature">Masukkan Suhu (Celsius):</label> 
+            <input type="number" id="temperature" required> <!-- input suhu -->
+            <button type="submit">Konversi</button> <!-- konversi suhu -->
+            <button type="button" id="resetButton">Reset</button> <!-- menghapus input dan hasil konversi -->
+            <button type="button" id="reverseButton">Reverse</button> <!-- mengubah konversi antara Celsius dan Fahrenheit -->
+        </form>
+        <!-- End form -->
+
+        <!-- Start result section -->
+        <div id="result">
+            <p>Hasil Konversi:</p> 
+            <p id="conversionResult"></p> 
+        </div>
+        <!-- End result section -->
+
+        <!-- Start explanation section -->
+        <div id="explanation">
+            <p>Penjelasan Konversi:</p> 
+            <p id="conversionExplanation"></p>
+        </div>
+        <!-- End explanation section -->
+    </main>
+    <!-- End main content -->
+    <!--  -->
+    <!-- Footer start -->
+    <footer>
+        <div class="credit">
+            <p>Created by <a href="#">putfuiarid</a>. | RevoU 2023.</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <script src="script.js"></script>
+</body>
+</html>
